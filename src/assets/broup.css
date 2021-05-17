@@ -1,0 +1,71 @@
+/* 自定义model弹框 */
+body{
+    background:#ccc;
+}
+.ye-model{
+    width:520px;
+    background:#fff;
+    position:absolute;
+    top:150px;
+    left:50%;
+    margin-left:-260px;
+}
+.ye-model-nb{
+    background: yellowgreen;
+}
+.header{
+    height:55px;
+    line-height:55px;
+    overflow:hidden;
+    font-size:30px;
+    padding:0 16px;
+    border-bottom:1px solid #ccc;
+}
+.tip{
+    float:left;
+}
+.clone{
+    float:right;
+    cursor:pointer;
+}
+.body{
+    padding:24px;
+    font-size:14px;
+}
+.wrap{
+
+}
+.footer{
+    height:55px;
+    overflow:hidden;
+    padding:0 16px;
+    border-top:1px solid #ccc;
+}
+.footer span{
+    float:right;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+    padding:0 15px;
+    border-radius:2px;
+    cursor:pointer;
+    margin-left:8px;
+    margin-top:11px;
+    border:1px solid transparent;
+}
+.footer .cancel{
+    border-color:#eee;
+}
+.footer .cancel:hover{
+    border-color:blue;
+    color:blue;
+}
+.footer .confirm{
+    border-color:blue;
+    background:blue;
+    color:#fff;
+}
+.footer .delete{
+    border-color:red;
+    color:red;
+}

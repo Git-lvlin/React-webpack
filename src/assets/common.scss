@@ -1,0 +1,46 @@
+$color:red;
+$size:40px;
+
+//sass-loader只是用于加载scss文件
+body{
+    h2{
+        color:$color;
+        font-size:$size;
+    }
+}
+.red{
+    color: red;
+}
+.green{
+    color: chartreuse;
+}
+.blue{
+    color: blue;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+// .admin-layout section{
+//     width: 100%;
+// }
+// .admin-layout{
+//     #components-layout-demo-top-side-2 .logo {
+//         float: left;
+//         width: 120px;
+//         height: 31px;
+//         margin: 16px 24px 16px 0;
+//         background: rgba(255, 255, 255, 0.3);
+//     }
+
+//     .ant-row-rtl #components-layout-demo-top-side-2 .logo {
+//         float: right;
+//         margin: 16px 0 16px 24px;
+//     }
+
+//     .site-layout-background {
+//         background: #fff;
+//     }
+// }
